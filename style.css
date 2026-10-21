@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+  margin: 0;
+  padding: 50px 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(100, 50, 80, 0.12);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  color: #ad1457;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #d81b60;
+  box-shadow: 0 0 0 3px rgba(216, 27, 96, 0.12);
+}
+
+button {
+  width: 100%;
+  margin-top: 28px;
+  padding: 15px;
+  background: linear-gradient(135deg, #d81b60, #ad1457);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ad1457, #880e4f);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(173, 20, 87, 0.2);
+}
+
+.hasil {
+  margin-top: 30px;
+  padding: 24px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+
+.hasil h3 {
+  margin: 0 0 20px;
+  font-size: 22px;
+  color: #ad1457;
+  text-align: center;
+}
+
+.detail {
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.detail strong {
+  color: #555;
+}
+
+.status {
+  margin-top: 18px;
+  padding: 18px 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.status p {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.status h4 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.lulus {
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  color: #2e7d32;
+}
+
+.remedial {
+  background-color: #ffebee;
+  border: 1px solid #ef9a9a;
+  color: #c62828;
+}
+
+.pas {
+  background-color: #fff3e0;
+  border: 1px solid #ffcc80;
+  color: #e65100;
+}
+
+.footer {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
